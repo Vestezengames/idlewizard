@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.96.16", 
-  "message": "Version checker, Auto seller and items buffed!",
+  "latest": "0.1.96.17", 
+  "message": "Purchases are now restored upon changing device or reinstalling the app.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
