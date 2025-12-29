@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.96.17", 
-  "message": "Purchases are now restored upon changing device or reinstalling the app.",
+  "latest": "0.1.96.18", 
+  "message": "Screen dim disabled \n Soul ascend bug fixed \n Quest progression scaling properly \n Waves and stages are now harder\n Buy Max Gold upgrade button added",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
