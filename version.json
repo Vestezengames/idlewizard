@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.96.19", 
-  "message": "Quest progression fixed \n Item naming changed \n Fixed a tutorial bug incase the player is too good.",
+  "latest": "0.1.96.20", 
+  "message": "Ascension text is now proper everywhere \n Inventory Notify counter is now correct \n Item upgrade currency placement is perfect \n",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
