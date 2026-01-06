@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.96.20", 
-  "message": "Ascension text is now proper everywhere \n Inventory Notify counter is now correct \n Item upgrade currency placement is perfect \n",
+  "latest": "0.1.96.21", 
+  "message": "Item tuning \n Wave balanc \n Lootchest better gear \n Lootchest animation fixed \n Daily reset properly now",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
