@@ -1,6 +1,6 @@
 {
   "latest": "0.1.96.23", 
-  "message": "Item tuning \n Wave balance \n Lootchest better gear \n Lootchest animation fixed \n Daily reset properly now \n Inventory Bug fixed",
+  "message": "Improved progression balance so upgrades and milestones feel smoother and more rewarding.\nAdded clearer milestone tracking to help players see what goal is coming next.\nUpdated Soul Boss encounters with better visual feedback and overall polish.\nReworked parts of damage and upgrade scaling for a more consistent gameplay curve.\nFixed multiple gameplay bugs, including quest progress, offline rewards, and equipment behavior.\nImproved overall stability and reliability with broader internal testing and fixes.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
