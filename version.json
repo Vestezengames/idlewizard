@@ -1,6 +1,6 @@
 {
-  "latest": "0.2.1", 
-  "message": "Added a brand-new Player Stats screen so you can track your long-term progress.\nFixed a bug where Swiftness upgrades could go past the intended max level.\nFixed an issue where total playtime could reset when restarting the game or switching focus.\nImproved stat saving so progress is now saved more reliably between sessions.\nAdded backend analytics improvements to help us better balance progression and future updates.\nTuning for Souls drop rates and Multishot balance.",
+  "latest": "0.2.2", 
+  "message": "Added Weekly Boss: a 30-second tap-only challenge unlocked at stage 180 with persistent HP, ad-boosted damage, and escalating tiers.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
