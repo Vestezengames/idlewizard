@@ -1,6 +1,6 @@
 {
-  "latest": "0.2.2", 
-  "message": "Added Weekly Boss: a 30-second tap-only challenge unlocked at stage 180 with persistent HP, ad-boosted damage, and escalating tiers.",
+  "latest": "0.2.3", 
+  "message": "Added Daily Boss: a 30-second tap-only challenge unlocked at stage 140.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
