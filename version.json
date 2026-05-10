@@ -1,6 +1,6 @@
 {
-  "latest": "0.2.4", 
-  "message": "Added Daily Boss: a 30-second tap-only challenge unlocked at stage 140.",
+  "latest": "0.2.5", 
+  "message": "Added Free loot event every 5-10 minutes\nNotifications!.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
