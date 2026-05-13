@@ -1,6 +1,6 @@
 {
-  "latest": "0.2.6", 
-  "message": "Added Notification window\n Added buttons to see TOS & PP in settings.",
+  "latest": "0.2.7", 
+  "message": "The daily / weekly bosses are now Ogres instead of random animals.\nNotification Window.\nPerformance\nBugfixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
