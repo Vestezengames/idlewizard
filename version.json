@@ -1,6 +1,6 @@
 {
-  "latest": "0.3", 
-  "message": "Production release!\nA lot of new content and features!",
+  "latest": "0.4", 
+  "message": "Every 100th boss now ALWAYS drops souls and gear, so player is isn't punished for ascension.\nDouble Gold is now giving more time and higher bonus, the more you watch.\nBuffed roulette rewards by a lot!\nFixed a rare bug that would cause the present-ad to crash the game\nMinor bug fixing\nMinor tuning",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
