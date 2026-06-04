@@ -1,6 +1,6 @@
 {
-  "latest": "0.4", 
-  "message": "Every 100th boss now ALWAYS drops souls and gear, so player is isn't punished for ascension.\nDouble Gold is now giving more time and higher bonus, the more you watch.\nBuffed roulette rewards by a lot!\nFixed a rare bug that would cause the present-ad to crash the game\nMinor bug fixing\nMinor tuning",
+  "latest": "0.5.1", 
+  "message": "Daily Login Rewards!\nAuto Sell now with options for idle and/or click items!\nSoul boss progession more consistent\nAd flow stability\nOffline bonus buffed\nTuning\nMinor bugfixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
