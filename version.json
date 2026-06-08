@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.2", 
-  "message": "Daily Login Rewards!\nAuto Sell now with options for idle and/or click items!\nSoul boss progession more consistent\nAd flow stability\nOffline bonus buffed\nFixed Issue daily reward window overlapping\nTuning\nMinor bugfixes",
+  "latest": "0.5.3", 
+  "message": "Fixed offline bonus errors!\nAdded a contact button in settings to make it easier to submit ideas, bugs or anything\nEquipped gear now shows stars aswell!\nTuning\nMinor bug fixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
