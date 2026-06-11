@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.3", 
-  "message": "Fixed offline bonus errors!\nAdded a contact button in settings to make it easier to submit ideas, bugs or anything\nEquipped gear now shows stars aswell!\nTuning\nMinor bug fixes",
+  "latest": "0.5.4", 
+  "message": "- Issue with ads not always loading should now be fixed!\n- Threshold for offline bonus lowered from 5 minutes to 10 seconds\n- Inventory performance has been vastly increased!\n- Selling/upgrading items no longer scrolls entire inventory to top\n- Current level of item is now properly shown if the item is max level.\n- Upgrade icon for each item is no longer removed upon selling an item\n- Minor tuning",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
