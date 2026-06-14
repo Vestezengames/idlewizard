@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.4", 
-  "message": "- Issue with ads not always loading should now be fixed!\n- Threshold for offline bonus lowered from 5 minutes to 10 seconds\n- Inventory performance has been vastly increased!\n- Selling/upgrading items no longer scrolls entire inventory to top\n- Current level of item is now properly shown if the item is max level.\n- Upgrade icon for each item is no longer removed upon selling an item\n- Minor tuning",
+  "latest": "0.5.5", 
+  "message": "- Achievements have been added to the game!\n- Triple damage ad now gives 3 minutes instead of 60 seconds\n- Triple damage ad is now automatically skipped after 15 seconds so idle gameplay is much more encouraged\n- New Settings window, where you can scroll and have a much better overview!\n- Minor tuning",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
