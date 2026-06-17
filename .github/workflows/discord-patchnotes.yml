@@ -1,0 +1,57 @@
+name: Send patch notes to Discord
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "version.json"
+
+jobs:
+  send-patchnotes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Send patch notes to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_PATCH_WEBHOOK }}
+        run: |
+          python3 << 'PY'
+          import json
+          import os
+          import urllib.request
+
+          with open("version.json", "r", encoding="utf-8") as file:
+              data = json.load(file)
+
+          latest = data.get("latest", "Unknown version")
+          message = data.get("message", "")
+          store_url = data.get("storeUrlAndroid", "")
+
+          discord_message = (
+              f"**Idle Wizard: Magic Ascension - Update {latest}**\n\n"
+              f"{message}\n\n"
+              f"Google Play:\n{store_url}"
+          )
+
+          payload = {
+              "content": discord_message
+          }
+
+          webhook_url = os.environ["DISCORD_WEBHOOK_URL"]
+
+          request = urllib.request.Request(
+              webhook_url,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json"
+              },
+              method="POST"
+          )
+
+          with urllib.request.urlopen(request) as response:
+              print("Discord response:", response.status)
+          PY
