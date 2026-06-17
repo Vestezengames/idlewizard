@@ -1,6 +1,6 @@
 {
   "latest": "0.5.7", 
-  "message": "- Improved inventory performance when using Auto Sell.\n- Improved performance when opening many loot chests at once.\n- Added scrollbars to upgrade windows and the settings window to make scrollable areas clearer.\n- Added a Google Play Games login button in Settings, allowing players to sign in and view achievements.",
+  "message": "- Improved inventory performance when using Auto Sell.\n- Improved performance when opening many loot chests at once.\n- Added scrollbars to upgrade windows and the settings window to make scrollable areas clearer.\n- Added a Google Play Games login button in Settings, allowing players to sign in and view achievements. ",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
