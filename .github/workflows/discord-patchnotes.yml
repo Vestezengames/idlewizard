@@ -33,8 +33,7 @@ jobs:
 
           discord_message = (
               f"**Idle Wizard: Magic Ascension - Update {latest}**\n\n"
-              f"{message}\n\n"
-              f"Google Play:\n{store_url}"
+              f"{message}\n\n" 
           )
 
           payload = {

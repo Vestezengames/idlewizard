@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.6", 
-  "message": "- Added a discord button in the settings menu\n- Fixed very rare issue with specific ad causing game to crash\n- Achievements have been added to the game!\n- Triple damage ad now gives 3 minutes instead of 60 seconds\n- Triple damage ad is now automatically skipped after 15 seconds so idle gameplay is much more encouraged\n- New Settings window, where you can scroll and have a much better overview!\n- Minor tuning",
+  "latest": "0.5.7", 
+  "message": "- Improved inventory performance when using Auto Sell.\n- Improved performance when opening many loot chests at once.\n- Added scrollbars to upgrade windows and the settings window to make scrollable areas clearer.\n- Added a Google Play Games login button in Settings, allowing players to sign in and view achievements.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
