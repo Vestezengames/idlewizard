@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "version.json"
+      - ".github/workflows/discord-patchnotes.yml"
+  workflow_dispatch:
 
 jobs:
   send-patchnotes:
@@ -21,36 +23,26 @@ jobs:
         run: |
           python3 << 'PY'
           import json
-          import os
-          import urllib.request
 
           with open("version.json", "r", encoding="utf-8") as file:
               data = json.load(file)
 
           latest = data.get("latest", "Unknown version")
-          message = data.get("message", "")
-          store_url = data.get("storeUrlAndroid", "")
+          message = data.get("message", "").replace("\\n", "\n")
 
           discord_message = (
               f"**Idle Wizard: Magic Ascension - Update {latest}**\n\n"
-              f"{message}\n\n" 
+              f"{message}"
           )
 
           payload = {
               "content": discord_message
           }
 
-          webhook_url = os.environ["DISCORD_WEBHOOK_URL"]
-
-          request = urllib.request.Request(
-              webhook_url,
-              data=json.dumps(payload).encode("utf-8"),
-              headers={
-                  "Content-Type": "application/json"
-              },
-              method="POST"
-          )
-
-          with urllib.request.urlopen(request) as response:
-              print("Discord response:", response.status)
+          with open("discord_payload.json", "w", encoding="utf-8") as file:
+              json.dump(payload, file)
           PY
+
+          curl -f -X POST "$DISCORD_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            --data @discord_payload.json
