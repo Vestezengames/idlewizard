@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.9", 
-  "message": "- New inventory filter with more options!\n- More permanent powers in the store: Double damage and Attack Speed!\n- Minor bug fixes and improvements.",
+  "latest": "0.5.10", 
+  "message": "- Offline progression! Clear stages while you are away and earn both gold & souls!\n - Improved Ad stability\n - Minor tuning adjustments\n - Bug fixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
