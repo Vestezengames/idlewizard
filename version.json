@@ -1,6 +1,6 @@
 {
   "latest": "0.5.12", 
-  "message": "Added Trial Dungeons with new battles and rewards.\n- Added leaderboards so you can compete with other players.\n- Improved the Upgrade Shop and Challenge screens.\n- Fixed a rare bug that could cause problems with ads.\n- Added a close button to the Daily Login screen.\n- Loot chests now drop less often for better game balance.\n- Offline rewards now appear after being away a little longer.\n- Improved the game’s systems behind the scenes.",
+  "message": "- Added Trial Dungeons with new battles and rewards.\n- Added leaderboards so you can compete with other players.\n- Improved the Upgrade Shop and Challenge screens.\n- Fixed a rare bug that could cause problems with ads.\n- Added a close button to the Daily Login screen.\n- Loot chests now drop less often for better game balance.\n- Offline rewards now appear after being away a little longer.\n- Improved the game’s systems behind the scenes.",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
