@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.14", 
-  "message": " - Fixed a rare issue that could prevent some high-stage players from starting the game or damaging monsters.\n - Equipment damage now scales strongly with rarity and item level while respecting its damage type.\n - Offline progression now correctly respects DPS, attack speed and additional monster timer upgrades.\n - Multishot damage is combined into fewer projectiles every 25 levels.\n - Roulette, Gold Store and Soul Store rewards now scale better.\n - Tuning\n - Bugfixes",
+  "latest": "0.5.15", 
+  "message": "- Equipment damage now scales more smoothly with rarity and item level to prevent extreme progression jumps.\n- Trial Dungeon boss difficulty now follows the updated chest progression.\n- Monster Gold now scales more strongly after Stage 1,000.\n- Fixed attacks occasionally becoming stuck when less than one hit was required.\n- The Damage display now shows general damage without including Tap or Idle bonuses.\n - Tuning\n - Bugfixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
