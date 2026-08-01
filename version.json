@@ -1,6 +1,6 @@
 {
-  "latest": "0.5.15", 
-  "message": "- Fixed an issue where gold became extremely low regardless of stage\n- Equipment damage now scales more smoothly with rarity and item level to prevent extreme progression jumps.\n- Trial Dungeon boss difficulty now follows the updated chest progression.\n- Monster Gold now scales more strongly after Stage 1,000.\n- Fixed attacks occasionally becoming stuck when less than one hit was required.\n- The Damage display now shows general damage without including Tap or Idle bonuses.\n - Tuning\n - Bugfixes",
+  "latest": "0.5.16", 
+  "message": " - Fixed an issue where Heritage did not grant starting gold after Ascension.\n - Fixed an issue with milestones showing chests at incorrect stages.\n - Tuning\n - Bugfixes",
   "force": false,
   "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.VestezenGames.IdleWizardMagicAscension" 
 }
